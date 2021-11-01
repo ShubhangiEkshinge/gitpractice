@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testng.parametersdemo.SoftDependancyDemo">
+        <methods>
+          <include name="m12"/>
+        </methods>
+      </class> <!-- com.testng.parametersdemo.SoftDependancyDemo -->
+      <class name="com.testng.parametersdemo.TimeOutDemo">
+        <methods>
+          <include name="m13"/>
+          <include name="m12"/>
+        </methods>
+      </class> <!-- com.testng.parametersdemo.TimeOutDemo -->
+      <class name="com.testng.parametersdemo.HardDependancyDemo">
+        <methods>
+          <include name="s13"/>
+        </methods>
+      </class> <!-- com.testng.parametersdemo.HardDependancyDemo -->
+      <class name="com.testng.parametersdemo.SingleThreadedDemo">
+        <methods>
+          <include name="m100"/>
+        </methods>
+      </class> <!-- com.testng.parametersdemo.SingleThreadedDemo -->
+      <class name="com.testng.parametersdemo.InvocationTimeOutDemo">
+        <methods>
+          <include name="m4"/>
+          <include name="m3"/>
+        </methods>
+      </class> <!-- com.testng.parametersdemo.InvocationTimeOutDemo -->
+      <class name="com.testng.parametersdemo.DependancyDemo">
+        <methods>
+          <include name="method5"/>
+        </methods>
+      </class> <!-- com.testng.parametersdemo.DependancyDemo -->
+      <class name="com.testng.parametersdemo.SuccessPercentageDemo">
+        <methods>
+          <include name="s12"/>
+        </methods>
+      </class> <!-- com.testng.parametersdemo.SuccessPercentageDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

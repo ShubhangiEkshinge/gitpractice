@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="com.testng.annotationsdemo.Using_Annotations1" />
+			<class name="com.testng.parametersdemo.InvocationTimeOutDemo" />
+			<class name="com.testng.annotationsdemo.Using_TestDemo" />
+			<class name="com.testng.annotationsdemo.Using_TesttagDemo" />
+			<class name="com.testng.annotationsdemo.Using_TestCaseDemo" />
+			<class name="com.testng.parametersdemo.PriorityDemo" />
+			<class name="com.testng.parametersdemo.InvocationCountDemo" />
+			<class name="com.testng.annotationsdemo.AnnotationDemo" />
+			<class name="com.testng.parametersdemo.ThreadPoolSizeDemo" />
+			<class name="com.testng.annotationsdemo.Using_Annotation" />
+			<class name="com.testng.parametersdemo.TimeOutDemo" />
+			<class name="com.testng.parametersdemo.groupsdemo.Class_A" />
+			<class name="com.testng.parametersdemo.groupsdemo.Class_B" />
+			<class name="com.testng.parametersdemo.groupsdemo.Class_C" />
+			<class name="com.testng.annotationsdemo.Using_SuiteDemo" />
+			<class name="com.testng.parametersdemo.SuccessPercentageDemo" />
+			<class name="com.testng.parametersdemo.SoftDependancyDemo" />
+			<class name="com.testng.parametersdemo.HardDependancyDemo" />
+			<class name="com.testng.parametersdemo.DependancyDemo" />
+			<class name="com.testng.parametersdemo.SingleThreadedDemo" />
+			<class name="com.testng.parametersdemo.InvocationTimeOutDemo" />
+			<class name="com.testng.parametersdemo.UnabledDemo" />
+			<class name="com.testng.parametersdemo.listenersdemo.TestCases" />
+			<class name="com.testng.parametersdemo.listenersdemo1.TestClass1" />
+			<class name="com.testng.parametersdemo.listenersdemo2.TestClass2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
